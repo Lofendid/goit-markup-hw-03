@@ -55,6 +55,11 @@ img {
     margin: 0 auto;
 }
 
+.flex-header {
+    display: flex;
+    gap: 332px;
+}
+
 
 /* Blended */
 
@@ -101,7 +106,6 @@ img {
 
 .header-block {
     display: flex;
-    flex-direction: row;
     background-color: white;
     padding: 25.5px 15px;
     column-gap: 332px;
@@ -114,8 +118,7 @@ img {
 }
 
 .nav-content {
-    display: inline-flex;
-    flex-direction: row;
+    display: flex;
     align-items: center;
     column-gap: 76px;
 }
