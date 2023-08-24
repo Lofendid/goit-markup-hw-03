@@ -51,8 +51,10 @@ img {
 }
 
 .container {
-    max-width: 1158px;
+    width: 1158px;
     margin: 0 auto;
+    padding-left: 15px;
+    padding-right: 15px;
 }
 
 .flex-header {
@@ -113,21 +115,19 @@ img {
 }
 
 .logotype-header {
-    margin: 0 auto;
+    margin-right: 76px;
     flex-shrink: 0;
 }
 
 .nav-content {
     display: flex;
     align-items: center;
-    column-gap: 76px;
 }
 
 .nav-list {
     display: flex;
-    flex-direction: row;
     align-items: center;
-    column-gap: 40px;
+    gap: 40px;
 
 }
 
@@ -306,12 +306,12 @@ img {
 
 .footer-block {
     background-color: #2E2F42;
-    padding: 100px 15px;
+    padding: 100px 0px;
 }
 
 .logotype-footer {
-    display: block;
-    margin-bottom: 17.5px;
+    display: inline-block;
+    margin-bottom: 16px;
 }
 
 .footer-text {
