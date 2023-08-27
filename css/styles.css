@@ -59,7 +59,7 @@ img {
 
 .flex-header {
     display: flex;
-    gap: 332px;
+    justify-content: space-between;
 }
 
 
@@ -107,10 +107,6 @@ img {
 /* Page Header */
 
 .header-block {
-    display: flex;
-    background-color: white;
-    padding: 0 15px;
-    column-gap: 332px;
     border-bottom: 1px solid #E7E9FC;
 }
 
